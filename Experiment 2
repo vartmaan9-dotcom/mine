@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+2 <html lang="en">
+3 <head>
+4 <meta charset="UTF-8">
+5 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+6 <title>Experiment-2</title>
+7 </head>
+8 <body>
+9 <h1 align="center">Global Daily News</h1>
+10 <p align="center"> your Trusted Source for Latest Updates</p>
+11 <hr>
+12 <p align="center">
+13 <a href="#World">World</a>
+14 <a href="#Entertainment">Entertainment</a>
+15 <a href="#Sports">Sports</a>
+16 <a href="#Podcast">Podcast</a>
+17 <a href="#Contact">Contact</a>
+18 </p>
+19 <hr>
+20 <p> World News</p>
+21 <p> Today's Top Headline: Global leaders meet to discuss climate change initiatives.</p>
+22 <img
+src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/BBC_World_News_2019.svg/3840px-
+BBC_World_News_2019.svg.png?
+utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" alt="News Channel
+logo " width="600" height="350">
+23
+24 <h1> Sports Updates</h1>
+25 <p> Highlights of yesterday's football match with thrilling last minute goal!</p>
+26 <iframe width="560" height="315" src="https://www.youtube.com/embed/rHs990UY4ZM?
+si=sLYL7e1gdk-Nj2S_" title="YouTube video player" frameborder="0" allow="accelerometer;
+autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+27
+28 <hr>
+29 <h1> Entertainment Buzz</h1>
+30 <p> New movie trailer releases today. Fans are excited!</p>
+31 <video width="560" height="315" controls>
+32 <source src="movie_trailer.mp4" type="video/mp4">
+33 </video>
+34
+35 <h1> News Podcast</h1>
+36 <p> Listen to today's top headlines:</p>
+37 <audio controls>
+38 <source src="audio.mp3" type="audio/mpeg">
+39 </audio>
+40
+41 <h1>Contact Us</h1>
+42 <p>Email: info@globalnews.com</p><br>
+43 <p>&copy; 2025 Global Daily News</p>
+44
+45
+46
+47 </body>
+48 </html>
+49
+50
