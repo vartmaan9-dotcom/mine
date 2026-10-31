@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment-5</title>
+</head>
+<body>
+    <h1 align="center">STUDENT REGISTRATION FORM</h1>
+    <hr>
+
+    <form action="#" method="post">
+        <label for="fullname">FULL NAME</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter you full name" required>
+        <br><br>
+
+        <label for="email">EMAIL</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="password">PASSWORD</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+
+        <label for="course">COURSE</label>
+        <select id="course" name="course" required>
+            <option value="">--Select Course--</option>
+            <option value="btech">B.Tech</option>
+            <option value="mtech">M.Tech</option>
+            <option value="mba">MBA</option>
+            <option value="msc">M.Sc</option>
+        </select>
+        <br><br>
+
+        <label for="contact">CONTACT NUMBER</label>
+        <input type="tel" id="contact" name="contact" pattern="[0-9]{10}" placeholder="Enter your contact number" required>
+        <br><br>
+
+        <label for="gender">GENDER</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label>
+        <br><br>
+
+        <label for="address">ADDRESS</label><br>
+        <textarea id="address" name="address" rows="4" cols="50" placeholder="Enter your address"></textarea>
+        <br><br>
+
+        <input type="submit" value="REGISTER NOW">
+        <input type="reset" value="CLEAR">
+        <br><br>
+    </form>
+
+    <hr>
+    <p align="center">&copy; 2025 student registration portal</p>
+</body>
+</html>
